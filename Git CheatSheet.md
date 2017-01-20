@@ -71,7 +71,7 @@ Download `git bash` from [here](https://git-scm.com/download/mac)
 ```	
  
  
- #####  How to commit Changes
+#####  How to commit Changes
  
  ```sh
  git commit -m "Insert Commit message here"
