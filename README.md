@@ -12,14 +12,9 @@ sudo apt-get install git
 yum -y install git
 
 ```
-#### On windows
+#### On windows and Mac
 
-Download `git bash` from [here](https://git-scm.com/download/win)
-
-#### On Mac
-
-Download `git bash` from [here](https://git-scm.com/download/mac)
-
+Download `github desktop and shell` from [here](https://desktop.github.com/)
 
 #### Getting Started
 	
@@ -151,5 +146,6 @@ Manage the set of repositories ("remotes") whose branches you track.
 * [Try Github](https://try.github.io)
 * [learnGitBranching](http://pcottle.github.io/learnGitBranching/?NODEMO)
 * [Pro Git - Free Book](http://git-scm.com/book)
-
- 
+* Learn more about [Markdown format](https://guides.github.com/features/mastering-markdown/)
+* Learn more about [github gist](https://gist.github.com/)
+* See your contributions [here](http://kjscecodecell.com/Contributions) 
