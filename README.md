@@ -5,11 +5,11 @@
 	
 ##### On Linux 
 ```sh
-#Debain Distro
-sudo apt-get install git
+	#Debain Distro
+	sudo apt-get install git
 
-# Fedora Distro
-yum -y install git
+	# Fedora Distro
+	yum -y install git
 
 ```
 #### On windows and Mac
@@ -19,21 +19,21 @@ Download `github desktop and shell` from [here](https://desktop.github.com/)
 #### Getting Started
 	
 ```sh
-  	#to initialize git in a local directory
-    git init
-    
-    #to clone a repo from github
-    git clone url
+	#to initialize git in a local directory
+	git init
+	
+	#to clone a repo from github
+	git clone url
 ```
   
 #### Configuring your name and email 
 
 ```sh
 	#set up user name
-    git config --global user.name "Insert your name here"
+	git config --global user.name "Insert your name here"
     
-    #set up user  email
-    git config --global user.email "Insert your email here"
+	#set up user  email
+	git config --global user.email "Insert your email here"
 ```
 
     
@@ -49,40 +49,39 @@ Download `github desktop and shell` from [here](https://desktop.github.com/)
 ##### how to add files to the [staging](http://gitready.com/beginner/2009/01/18/the-staging-area.html) area 
 	
 ```sh 
-  #add a specific file
-  git add filename
+	#add a specific file
+	git add filename
  
-  #add a specific file type
-  git add *.extention
+	#add a specific file type
+	git add *.extention
  
-  #add all files 
- 
-  git add .
-     or 
-  git add *
+ 	#add all files  
+	git add .
+	   or 
+	git add *
   
-  #this command will unstage the files which are not commited
-  git reset filename
+  	#this command will unstage the files which are not commited
+	git reset filename
 ```	
  
  
 #####  How to commit Changes
  
  ```sh
- git commit -m "Insert Commit message here"
- 
+	git commit -m "Insert Commit message here"
 ```
 
 ##### See commit history
+
 ```sh
-#detailed commit history
-git log
+	#detailed commit history
+	git log
 ```
 
 ##### Go back to a previous commit
 
 ```sh
-git reset --hard sha
+	git reset --hard sha
 ```
 sha is the alphanumeric  you find when using `git log`
  
@@ -92,19 +91,19 @@ sha is the alphanumeric  you find when using `git log`
 
 ```sh
 	# check current branch names
-    git branch
-
+	git branch
+	
 	# add a new branch
-    git branch branchname
+	git branch branchname
     
-    # switch to a different branch
-    git checkout branch name
+    	# switch to a different branch
+    	git checkout branch name
     
-    # add a new branch and switch to that branch
-   git checkout -b branchname   
+    	# add a new branch and switch to that branch
+   	git checkout -b branchname   
    
-   # merge a branch to the current branch
-   git merge  branchname
+   	# merge a branch to the current branch
+   	git merge  branchname
 ```
 
 ##### Contributing to an Online Repo Workflow
@@ -116,11 +115,12 @@ sha is the alphanumeric  you find when using `git log`
 
 Manage the set of repositories ("remotes") whose branches you track.
 ```sh
+
 	#check available remotes
-    git remote 
+    	git remote 
     
-    #Add a new remote 
-    git remote add url
+    	#Add a new remote 
+    	git remote add url
     
 ```
 
@@ -128,21 +128,22 @@ Manage the set of repositories ("remotes") whose branches you track.
 
 ```sh
 	#pull all the branches from your main repo 
-    git pull 
+	git pull 
     
-    #pull specific branch from a specific repo
-    git pull remote-name  branch-name 
+	#pull specific branch from a specific repo
+	git pull remote-name  branch-name 
 
 	# push all the branches to the main repo
-    git push 
+	git push 
     
-    #push specific branch to a specific repo
+    	#push specific branch to a specific repo
 	git push remote-name branch-name    
 
 ```
 
 #### Resources 
 
+* [Learn by doing](https://www.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
 * [Try Github](https://try.github.io)
 * [learnGitBranching](http://pcottle.github.io/learnGitBranching/?NODEMO)
 * [Pro Git - Free Book](http://git-scm.com/book)
