@@ -26,10 +26,10 @@ Download `github desktop and shell` from [here](https://desktop.github.com/)
   
 #### Configuring your name and email 
 
-	#set up user name
+	# set up user name
 	git config --global user.name "Insert your name here"
 
-	#set up user  email
+	# set up user email
 	git config --global user.email "Insert your email here"
 
     
@@ -48,8 +48,7 @@ Download `github desktop and shell` from [here](https://desktop.github.com/)
 	# add a specific file type
 	git add *.extention
 
-	# add all files 
-
+	# add all files
 	git add .
 	or 
 	git add *
@@ -71,7 +70,7 @@ Download `github desktop and shell` from [here](https://desktop.github.com/)
 
 	git reset --hard sha
 
-sha is the alphanumeric  you find when using `git log`
+sha is the alphanumeric. You find sha hash using `git log`
 
 #### Branches
 
