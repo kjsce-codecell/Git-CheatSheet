@@ -120,6 +120,7 @@ Manage the set of repositories ("remotes") whose branches you track.
 
 #### Resources 
 
+* [Learn by doing](https://www.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
 * [Try Github](https://try.github.io)
 * [learnGitBranching](http://pcottle.github.io/learnGitBranching/?NODEMO)
 * [Pro Git - Free Book](http://git-scm.com/book)
